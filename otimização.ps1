@@ -1,5 +1,5 @@
 # -------------------------------------------------------------------------
-# SCRIPT DE OTIMIZAÇÃO (BASEADO NO TUTORIAL DO IGUST)
+# SCRIPT DE OTIMIZAÇÃO (BASED ON ITUTORIAL IGUST)
 # Execute sempre como Administrador!
 # -------------------------------------------------------------------------
 
@@ -53,4 +53,5 @@ while ($true) {
 
             # 4. Prioridades de Jogos (CPU e GPU)
             Set-ItemProperty -Path $gamesPath -Name "Priority" -Value 6 -Type DWord -Force
-            Set-ItemProperty -Path $gamesPath -Name "Scheduling Category" -Value "High" -TypeNormally I can help with things like this, but I don't seem to have access to that content. You can try again or ask me for something else.
+            Set-ItemProperty -Path $gamesPath -Name "Scheduling Category" -Value "High" -Type String -Force
+            Set-ItemProperty -Path $gamesNormally I can help with things like this, but I don't seem to have access to that content. You can try again or ask me for something else.
